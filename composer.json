@@ -14,7 +14,8 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "ext-libxml": "*",
-        "ext-simplexml": "*"
+        "ext-simplexml": "*",
+        "ext-bcmath": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0"

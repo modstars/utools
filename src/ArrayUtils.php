@@ -140,4 +140,20 @@ class ArrayUtils
         libxml_disable_entity_loader(true);
         return json_decode(json_encode(simplexml_load_string($xml, 'SimpleXMLElement', LIBXML_NOCDATA)), true);
     }
+
+    /**
+     * 字符串转数组
+     *
+     * @param string $string
+     * @return array
+     */
+    public static function fromString(string $string): array
+    {
+        $array = [];
+        for ($i=0; $i<mb_strlen($string); $i++)
+        {
+            array_push($array, mb_substr($string, $i, 1));
+        }
+        return $array;
+    }
 }
