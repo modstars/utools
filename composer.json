@@ -1,9 +1,9 @@
 {
-    "name": "konoha-s/utools",
+    "name": "modstars/utools",
     "type": "library",
     "authors": [
         {
-            "name": "宋杨",
+            "name": "songyang",
             "email": "945679940@qq.com"
         }
     ],
